@@ -1,0 +1,4 @@
+*/**/*.zip
+*.zip
+~$*.pptx
+.DS_Store
