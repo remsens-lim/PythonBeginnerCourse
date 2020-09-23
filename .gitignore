@@ -1,4 +1,6 @@
 */**/*.zip
+*/*.png
+*/.ipynb_checkpoints/*.ipynb
 *.zip
 ~$*.pptx
 .DS_Store
