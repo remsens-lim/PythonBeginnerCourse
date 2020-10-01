@@ -4,5 +4,11 @@ Will first held in 2020 for 3rd semester Meteorology Bachelor students. Basic co
 History
 This version of the python3 beginner course is based on a prior versions developed by Martin Radenz. Major changes are updated course slides and addidional task for students.
 
+Application Of Python:
+  Web and Internet Development
+  Scientific and Numeric
+  Software Development
+  Business Application
+  
 License
 Copyright 2020, Martin Radenz, Willi Schimmel, Teresa Vogl MIT License For details see the LICENSE file.
