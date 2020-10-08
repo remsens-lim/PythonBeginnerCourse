@@ -266,22 +266,6 @@ velocity_colors = (
 
 carbonne_map = matplotlib.colors.ListedColormap(velocity_colors, "carbonne")
 
-cloudnet_colors = (
-    (1.0, 1.0, 1.0),  # white
-    (0.8, 0.8, 0.8),  # light grey
-    (0.4, 0.6, 0.0),  # strange green
-    (1.0, 0.0, 0.0),  # red
-    (0.0, 0.0, 1.0),  # blue
-    (1.0, 1.0, 0.0),  # yellow
-    (0.0, 0.8, 0.0),  # light green
-    (1.0, 0.5, 0.0),  # orange
-    (0.0, 0.6, 0.6),  # turquoise
-    (0.6, 0.6, 0.6),
-    (0.4, 0.4, 0.4)
-)
-
-cloudnet_map = matplotlib.colors.ListedColormap(cloudnet_colors, "cloudnet")
-
 velocity_colors_down = [
     # (1.0, 1.0, 1.0),
     (0.0, 0.0, 0.3),  # end_val dark blue
