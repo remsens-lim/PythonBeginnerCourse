@@ -466,3 +466,34 @@ ldr_colors=(
 )
 
 ldr_map = matplotlib.colors.ListedColormap(ldr_colors, "LDR")
+
+
+cloudnet_colors = [[1.        , 1.        , 1.        ],
+       [0.42352941, 1.        , 0.9254902 ],
+       [0.1254902 , 0.62352941, 0.95294118],
+       [0.74901961, 0.60392157, 1.        ],
+       [0.89803922, 0.89019608, 0.92156863],
+       [0.2745098 , 0.29019608, 0.7254902 ],
+       [1.        , 0.64705882, 0.        ],
+       [0.78039216, 0.98039216, 0.22745098],
+       [0.80784314, 0.7372549 , 0.5372549 ],
+       [0.90196078, 0.29019608, 0.1372549 ],
+       [0.70588235, 0.21568627, 0.34117647]]
+cloudnet_colors = tuple(cloudnet_colors)
+
+cloudnet_map = matplotlib.colors.ListedColormap(cloudnet_colors, "cloudnet_target")
+
+target_names = [
+    "Clear sky",
+    "Cloud droplets only",
+    "Drizzle or rain",
+    "Drizzle/rain & \ncloud droplets",
+    "Ice",
+    "Ice & supercooled\ndroplets",
+    "Melting ice",
+    "Melting ice & \ncloud droplets",
+    "Aerosol",
+    "Insects",
+    "Aerosol & \ninsects"
+]
+
