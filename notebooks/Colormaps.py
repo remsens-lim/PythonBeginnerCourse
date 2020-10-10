@@ -451,7 +451,6 @@ ldr_colors=(
 
 ldr_map = matplotlib.colors.ListedColormap(ldr_colors, "LDR")
 
-
 cloudnet_colors = [[1.        , 1.        , 1.        ],
        [0.42352941, 1.        , 0.9254902 ],
        [0.1254902 , 0.62352941, 0.95294118],
@@ -480,4 +479,3 @@ target_names = [
     "Insects",
     "Aerosol & \ninsects"
 ]
-
